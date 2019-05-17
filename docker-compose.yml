@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/The-Empress-Poor-quality-Special-Effects
   selenium:
     image: "elgalu/selenium:latest"
     ports:
